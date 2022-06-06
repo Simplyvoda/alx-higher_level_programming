@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
-    for i in range(len(matrix)):
-        for j in range(len(matrix[i])):
-            print("{:d}".format(matrix[i][j]), end= " ")
-        print()
-#this task includes multidimensional lists
+    for e in matrix:
+        for i in e:
+            print('{:d}'.format(i), end='')
+            if i != e[-1]:
+                print(' ', end='')
+        print("")
