@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 str1 = "Holberton"
 str2 = "School"
-userdictionary = {'str1': 'Holberton', 'str2': 'School'}
-print(f"Welcome to {userdictionary['str1']} {userdictionary['str2']}!")
+str3 = "{} {}".format(str1, str2)
+print("Welcome to {}!".format(str3))
