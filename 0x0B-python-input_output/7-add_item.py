@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 """this module loads and saves"""
-
-
 import sys
 
 if __name__ = "__main__":
