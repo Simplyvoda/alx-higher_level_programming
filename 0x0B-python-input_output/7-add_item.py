@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""this module adds all argument to list and saves"""
+"""module adds all argument to list and saves"""
 import sys
 
 if __name__ = "__main__":
