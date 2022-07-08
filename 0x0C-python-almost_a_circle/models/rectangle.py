@@ -66,14 +66,14 @@ class Rectangle(Base):
     @x.setter
     def x(self, number):
         """setter for x"""
-        if x < 0:
+        if number < 0:
             raise ValueError("x must be >= 0")
         self.__x = number
 
     @y.setter
     def y(self, number):
         """setter for y"""
-        if y < 0:
+        if number < 0:
             raise ValueError("y must be >= 0")
         self.__y = number
 
