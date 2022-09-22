@@ -13,4 +13,4 @@ def find_peak(list_of_integers):
             j = m
         else:
             i = m + 1
-    return i
+    return list_of_integers[i]
