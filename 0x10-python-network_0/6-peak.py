@@ -8,7 +8,7 @@ def find_peak(list_of_integers):
     i = 0
     j = len(list_of_integers) - 1
     while i <= j:
-        m = (i + j)/2
+        m = int((i + j)/2)
         if list_of_integers[m] > list_of_integers[m+1]:
             j = m
         else:
